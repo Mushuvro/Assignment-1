@@ -131,8 +131,8 @@
 .my-plans-options{
     display: flex;
     list-style: none;
-    gap: 200px;
-    padding-left: 200px;
+    gap: 120px;
+    padding-left: 20px;
     padding-top: 62px ;
 }
 .my-plans-title{
@@ -183,7 +183,46 @@
     border-radius: 5px;
     background: #FFF;
 }
+
+/* new section */
+
+.my-promise{
+    width: 1600px;
+    height: 577px;
+    display: flex;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 500px;
+
+}
+.my-promise-text{
+    padding-top: 350px;    
+}
+.my-promise-title{
+    width: 288px;
+    color: var(--Dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.my-promise-discrption{
+    width: 416px;
+    color: var(--Dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding-bottom: 20px;
+
+}
+.my-promise-Img{
+    padding: 270px 200px 100px 200px;
+}
+
+
 /* footer */
+
 footer{
     width: 1600px;
     height: 577px;
